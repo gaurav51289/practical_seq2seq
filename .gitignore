@@ -6,4 +6,9 @@ checkpoint
 ckpt/*/*.*
 ignore/
 *.pkl
-*.tar.gz
+**/*.tar.gz
+**/*.csv
+train.txt
+test.txt
+.idea/
+

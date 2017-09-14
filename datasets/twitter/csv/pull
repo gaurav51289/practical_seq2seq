@@ -1,0 +1,7 @@
+#!/bin/bash
+
+wget -c 'https://www.dropbox.com/s/stcghjiy2fp29te/dataset.tar.gz?dl=0' -O dataset.tar.gz
+tar -zxvf dataset.tar.gz
+mv ./dataset/train.csv .
+mv ./dataset/test.csv .
+rm -r dataset dataset.tar.gz
